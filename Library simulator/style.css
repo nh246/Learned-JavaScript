@@ -1,0 +1,31 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+#library, #addBookForm, #searchBooksForm {
+  margin-bottom: 20px;
+}
+
+#bookList {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+}
+
+.book {
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+#addBookForm input,
+#searchBooksForm input,
+#addBookForm button,
+#searchBooksForm button {
+  margin-right: 10px;
+}
