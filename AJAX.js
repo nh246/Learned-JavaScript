@@ -6,6 +6,7 @@ function loadDoc() {
     xhttp.open("GET", "ajax_info.txt", true);
     xhttp.send();
   }
+  
 
 //   What is AJAX?
 //   AJAX = Asynchronous JavaScript And XML.
