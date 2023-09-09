@@ -8,3 +8,4 @@ My projects -
 4) Factorial calculator
 5) Array menupelatio.
 6) Color Changer.
+7) Simple guessing game.
