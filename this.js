@@ -24,3 +24,30 @@ const person = {
 {/* <button onclick="this.style.display='none'">
   Click to Remove Me!
 </button> */}
+
+
+// function nh(){
+//   let names ="nazmul";
+// }
+
+// nh()
+
+// =============================== immiedately invoked funcion ================================
+
+// putting the function in a paranthesis 
+// exaple :
+
+
+// wh use this to get rid of some global scope polution 
+(function nhr(){
+  console.log(`DM in demand`);
+})();
+// N:B = must use ; after the immediately invoked function because it dosent know when to stop 
+
+// Example of arrow function 
+
+(()=>{
+  console.log("This is an example");
+}
+
+)();
