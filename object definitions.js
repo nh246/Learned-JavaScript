@@ -5,4 +5,7 @@ const person = {
   }
   
   const x = person;
-  x.age = 10;    
+  x.age = 10;
+  
+  const { a: m} = {a :10};
+  console.log(a);
