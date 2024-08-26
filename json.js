@@ -5,19 +5,23 @@
 //     JSON is "self-describing" and easy to understand
 //         * The JSON syntax is derived from JavaScript object notation syntax, but the JSON format is text only.Code for reading and generating JSON data can be written in any programming language.
 
-{
-    "employees" : [
-        { "firstName": "John", "lastName": "Doe" },
-        { "firstName": "Anna", "lastName": "Smith" },
-        { "firstName": "Peter", "lastName": "Jones" }
-    ]
-}
+// {
+//     "employees" : [
+//         { "firstName": "John", "lastName": "Doe" },
+//         { "firstName": "Anna", "lastName": "Smith" },
+//         { "firstName": "Peter", "lastName": "Jones" }
+//     ]
+// }
 
-let text = '{"employees":[' +
-    '{"firstName":"John","lastName":"Doe" },' +
-    '{"firstName":"Anna","lastName":"Smith" },' +
-    '{"firstName":"Peter","lastName":"Jones" }]}';
+// let text = '{"employees":[' +
+//     '{"firstName":"John","lastName":"Doe" },' +
+//     '{"firstName":"Anna","lastName":"Smith" },' +
+//     '{"firstName":"Peter","lastName":"Jones" }]}';
 
-const obj = JSON.parse(text);
-document.getElementById("demo").innerHTML =
-    obj.employees[1].firstName + " " + obj.employees[1].lastName;
+// const obj = JSON.parse(text);
+// document.getElementById("demo").innerHTML =
+//     obj.employees[1].firstName + " " + obj.employees[1].lastName;
+
+// fetch('https://jsonplaceholder.typicode.com/todos/1')
+//       .then(response => response.json())
+//       .then(json => console.log(json))

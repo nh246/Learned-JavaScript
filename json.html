@@ -9,6 +9,31 @@
     <h2>Create Object from JSON String</h2>
 
 <p id="demo"></p>
+<script>
 
+fetch('https://jsonplaceholder.typicode.com/users')
+      .then(response => response.json())
+      .then(json => displayJson(json) )
+
+      function displayJson(users) {
+        
+        // console.log(users)
+
+        const userNames = users.map(user => user.username);
+        const p = document.getElementById("demo");
+        for (let i=0; i < userNames.length; i++ ){
+             
+            const username = userNames[i];
+            const ps = document.createElement("p");
+            ps.innerText = username;
+            p.appendChild(ps);
+        }
+         
+        console.log(userNames)
+
+      }
+   
+   
+</script>
 </body>
 </html>
